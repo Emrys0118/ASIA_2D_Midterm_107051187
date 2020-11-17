@@ -15,6 +15,7 @@ public class LevelManager : MonoBehaviour
 
     public void Quit()
     {
+        print("離開遊戲");
         Application.Quit();
     }
 }
