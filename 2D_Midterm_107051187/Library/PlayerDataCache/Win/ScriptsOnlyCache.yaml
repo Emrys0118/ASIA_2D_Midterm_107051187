@@ -19,10 +19,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -63,25 +61,25 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11184}
+      Script: {instanceID: 11170}
     - Class: 114
-      Script: {instanceID: 11472}
+      Script: {instanceID: 11458}
     - Class: 114
-      Script: {instanceID: 11526}
+      Script: {instanceID: 11512}
     - Class: 114
-      Script: {instanceID: 12066}
+      Script: {instanceID: 12054}
     - Class: 114
-      Script: {instanceID: 12186}
+      Script: {instanceID: 12174}
     - Class: 114
-      Script: {instanceID: 12568}
+      Script: {instanceID: 12556}
     - Class: 114
-      Script: {instanceID: 12886}
+      Script: {instanceID: 12874}
     - Class: 114
-      Script: {instanceID: 13646}
+      Script: {instanceID: 13634}
     - Class: 114
-      Script: {instanceID: 14156}
+      Script: {instanceID: 14144}
     - Class: 114
-      Script: {instanceID: 14258}
+      Script: {instanceID: 14246}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -134,29 +132,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 586}
     - Class: 114
-      Script: {instanceID: 11184}
+      Script: {instanceID: 11170}
     - Class: 114
-      Script: {instanceID: 11472}
+      Script: {instanceID: 11458}
     - Class: 114
-      Script: {instanceID: 11526}
+      Script: {instanceID: 11512}
     - Class: 114
-      Script: {instanceID: 12066}
+      Script: {instanceID: 11620}
     - Class: 114
-      Script: {instanceID: 12186}
+      Script: {instanceID: 12054}
     - Class: 114
-      Script: {instanceID: 12886}
+      Script: {instanceID: 12174}
     - Class: 114
-      Script: {instanceID: 13574}
+      Script: {instanceID: 12874}
+    - Class: 114
+      Script: {instanceID: 13562}
+    - Class: 114
+      Script: {instanceID: 13622}
     - Class: 114
       Script: {instanceID: 13634}
     - Class: 114
-      Script: {instanceID: 13646}
+      Script: {instanceID: 14054}
     - Class: 114
-      Script: {instanceID: 14066}
-    - Class: 114
-      Script: {instanceID: 14258}
-    - Class: 114
-      Script: {instanceID: 23864}
+      Script: {instanceID: 14246}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -290,6 +288,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: e8feec615c471c06dc48ab5fbb0b15bb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KID
+    className: CameraControl
   - hash:
       serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
@@ -692,12 +696,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: e8feec615c471c06dc48ab5fbb0b15bb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: KID
-    className: CameraControl
   platform: 5
   scenePathNames:
   - "Assets/\u5834\u666F/\u9078\u55AE.unity"
